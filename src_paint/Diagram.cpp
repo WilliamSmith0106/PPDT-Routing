@@ -435,8 +435,6 @@ void Diagram::drawCircles(std::vector<CircleUI>* circles, PolygonStyle* s, QPain
 	for (const CircleUI& cc : *circles) {
 		if (clipPt(cc, m_visibleRect)) {	// 1. Clip data (points, directly filter)
 			radius = cc.radius * m_scaleFactor;
-			//if (radius < 1)
-			//	radius = 1;
 			painter.drawEllipse(dataToScreen(cc), radius, radius);// Draw ellipse
 		}
 	}

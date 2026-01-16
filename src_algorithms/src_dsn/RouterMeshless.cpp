@@ -721,6 +721,8 @@ bool RouterMeshless::route_GND() {
 		m_node_start->addChild(m_node_end, 0, 0);
 		// Generate a path from m_node_start to m_node_end
 		backTrackOnePath(m_node_end);
+		m_node_end->parent->children.erase(m_node_end);
+		m_node_end->parent = nullptr;
 		bool alreadyGotGnd = startGotGnd || startInGndLayer || endGotGnd || endInGndLayer;
 		if (!alreadyGotGnd) {
 			PathTree* viaNode = m_leafNodesList.top();
