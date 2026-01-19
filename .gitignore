@@ -1,0 +1,58 @@
+<<<<<<< HEAD
+/x64
+/PTreeRouting
+/.vs
+/data/result
+/data/dsn/main
+/data/dsn/case1.dsn
+/data/dsn/case10.dsn
+/data/dsn/case2.dsn
+/data/dsn/case3.dsn
+/data/dsn/case5.dsn
+/data/dsn/case6.dsn
+/data/dsn/case7.dsn
+/data/dsn/case8.dsn
+/data/dsn/case9.dsn
+=======
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug information files
+*.dwo
+>>>>>>> c49333b9188ffe3a3700184c95071b273c693907
